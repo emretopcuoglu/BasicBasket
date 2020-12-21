@@ -44,7 +44,7 @@ namespace Project.CartAPI
             {
                 e.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "SepetAPI",
+                    Title = "CartAPI",
                     Version = "v1"
                 });
             });
@@ -65,7 +65,7 @@ namespace Project.CartAPI
 
             app.UseSwagger();
             app.UseSwaggerUI(c=> {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "SepetAPI");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CartAPI");
             });
 
             app.UseMvc();
