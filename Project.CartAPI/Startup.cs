@@ -36,7 +36,7 @@ namespace Project.CartAPI
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddSession();
-            services.AddDistributedMemoryCache();
+            //services.AddDistributedMemoryCache();
 
             services.AddAutoMapper(typeof(Startup), typeof(MapProfile));
 
