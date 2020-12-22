@@ -20,9 +20,14 @@ namespace Project.Business.Services
         {
             var product = _db.Product.Where(x => x.ProductId == productId).SingleOrDefault();
 
+            if (product == null)
+            {
+                throw new Exception("Böyle bir ürün bulunmamaktadır.");
+            }
+
             var cartCount = CartCount(cart, productId);
 
-            if (product != null && product.Stock > 0 && product.Stock > cartCount)
+            if (product.Stock > 0 && product.Stock > cartCount)
             {
                 return product;
             }
