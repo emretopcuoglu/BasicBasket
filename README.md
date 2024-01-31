@@ -1,6 +1,6 @@
 # CartProject
 
-.Net Core Entity Framework CodeFirst yaklaşımı ve PostgreSQL kullanılarak geliştirilmiş basic sepet API
+.Net Core Entity Framework CodeFirst approach and basic basket API developed using PostgreSQL
 
 [API URL](https://projectcartapi20201221100616.azurewebsites.net/swagger/index.html)
 
