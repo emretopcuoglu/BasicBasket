@@ -1,6 +1,6 @@
-# CartProject
+# BasicBasketProduct
 
-.Net Core Entity Framework CodeFirst approach and basic basket API developed using PostgreSQL
+.Net Core Entity Framework CodeFirst approach and basic basket API developed using PostgreSQL (only create and delete)
 
 [API URL](https://projectcartapi20201221100616.azurewebsites.net/swagger/index.html)
 
