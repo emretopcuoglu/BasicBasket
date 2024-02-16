@@ -1,4 +1,4 @@
-# BasicBasketProduct
+# BasicBasketProject
 
 .Net Core Entity Framework CodeFirst approach and basic basket API developed using PostgreSQL
 
