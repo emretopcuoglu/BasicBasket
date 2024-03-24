@@ -58,8 +58,6 @@ namespace Project.CartAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            app.CustomException();
-
             app.UseSession();
 
             app.UseSwagger();
